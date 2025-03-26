@@ -1,0 +1,31 @@
+html {
+    font-size: 22px;
+}
+
+div, figure {
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+caption, th, td {
+    border: 1px solid #333;
+    font-family: 'Times New Roman', 'Courier New', Courier;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    gap: 10px;
+}
